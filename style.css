@@ -1,159 +1,154 @@
 * {
-	padding: 0;
+  padding: 0;
 }
 
 body {
-	background: #262626;
+  background: #262626;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
-	text-transform: uppercase;
-	padding: 30px 0;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding: 30px 0;
 }
 
 p, ul li, ol li {
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.6rem;
-	padding: 20px 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  padding: 20px 0;
 }
 
 a {
-	color: #86D5D5;
-	font-style: italic;
-	font-family: 'Inconsolata', monospace;
-	font-size: 1.1rem;
+  color: #86D5D5;
+  font-style: italic;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.1rem;
 }
 
 .hero {
-	height: 400px;
-	width: 100vw;
-	position: relative;
-	display: flex;
-	justify-content: center;
+  height: 400px;
+  width: 100vw;
+  position: relative;
 }
 
-
 .hero::before {
-	content: "";
-	background: url('images/hero-background.jpg');
-	background-size: cover;
-	background-position: bottom center;
-	background-repeat: no-repeat;
-	opacity: 0.5;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	z-index: -1;
+  content: "";
+  background: url('images/hero-background.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .hero nav {
-	background-color: #FFB86C;
-	color: #000;
-	height: 30px;
-	margin-top: 0;
-	width: 110%;
-	margin-left: -10px;
-	margin-right: -10px;
+  background-color: #ffb86c;
+  color: #000;
+  height: 30px;
+  margin-top: 0;
+  width: 100%
 }
 
 .hero nav ul {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero nav ul li {
-	list-style-type: none;
-	padding: 0 10px;
-	margin-top: -15px;
+  list-style-type: none;
+  padding: 0 10px;
+  margin-top: 0;
 }
 
 .hero nav ul li a {
-	color: #000;
-	font-style: normal;
+  color: #000;
+  font-style: normal;
 }
 
 .hero h1 {
-	text-align: center;
-	text-transform: uppercase;
-	padding-top: 120px;
-	color: yellow;
-	text-shadow: 3px 3px 4px #333;
-	font-size: 3rem;
-	letter-spacing: 0.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 120px;
+  color: yellow;
+  text-shadow: 3px 3px 4px #333;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
 }
 
 .content {
-	display: block;
-	width: 100%;
-	margin-top: -100px;
+  display: block;
+  width: 100%;
+  margin-top: -100px;
 }
 
 .blog-section {
-	display: inline-block;
-	background: #333;
-	color: #fff;
-	z-index: 2;
-	box-shadow: 3px 3px 4px #FF87D7;
-	border: 5px double #ffb86c;
-	border-radius: 5px;
-	padding: 30px;
-	width: 60%;
-	margin-left: 20px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  z-index: 2;
+  box-shadow: 3px 3px 4px #ff87d7;
+  border: 5px double #ffb86c;
+  border-radius: 5px;
+  padding: 30px;
+  width: 60%;
+  margin-left: 20px;
 }
 
 .blog-section:hover {
-	box-shadow: 5px 5px 6px #FF87D7;
+  box-shadow: 5px 5px 6px #ff87d7;
 }
 
 #sidebar {
-	display: inline-block;
-	background: #333;
-	color: #fff;
-	width: 25%;
-	float: right;
-	z-index: 2;
-	box-shadow: 3px 3px 4px #FF87D7;
-	border: 5px double #ffb86c;
-	border-radius: 5px;
-	padding: 30px;
-	margin-right: 20px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  width: 25%;
+  float: right;
+  z-index: 2;
+  box-shadow: 3px 3px 4px #ff87d7;
+  border: 5px double #ffb86c;
+  border-radius: 5px;
+  padding: 30px;
+  margin-right: 20px;
 }
 
 #sidebar:hover {
-	box-shadow: 5px 5px 6px #FF87D7;
+  box-shadow: 5px 5px 6px #ff87d7;
 }
 
 #sidebar li {
-	list-style-type: none;
-	padding: 5px 0;
+  list-style-type: none;
+  padding: 5px 0;
 }
 
 #footer {
-	border: 1px solid #FF87D7;
-	display: block;
-	background-color: #FFB86C;
-	border-radius: 5px;
-	padding: 0;
-	z-index: 3;
-	color: #000;
-	margin: 20px -10px;
+  border: 1px solid #ff87d7;
+  display: block;
+  background-color: #ffb86c;
+  border-radius: 5px;
+  padding: 0;
+  z-index: 3;
+  color: #000;
+  margin: 20px -10px;
 }
 
 #footer p {
-	text-transform: lowercase;
-	padding: 0px;
-	margin: 0px;
+  text-transform: lowercase;
+  padding: 0px;
+  margin: 0px;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 #about-the-author li {
-	list-style-type: disc;
-	margin-left: 20px;
+  list-style-type: disc;
+  margin-left: 20px; 
 }
